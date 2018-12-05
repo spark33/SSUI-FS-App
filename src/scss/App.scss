@@ -1,0 +1,21 @@
+@import './Search.scss';
+
+header {
+	background: #deeff5;
+	padding-bottom: 50px;
+}
+
+.Home .new-feature {
+	display: none;
+}
+
+input:not([type="checkbox"]), textarea, button {
+	display: block;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 30px 0;
+}
+
+textarea {
+	min-height: 100px;
+}

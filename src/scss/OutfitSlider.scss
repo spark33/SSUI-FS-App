@@ -1,0 +1,55 @@
+header {
+	overflow: hidden;
+}
+
+.outfit-slider {
+	height: 500px;
+
+	.outfit-slides {
+		display: flex;
+		transition: 0.5s all ease;
+	}
+
+	.slide-left-link {
+		position: sticky;
+		top: 300px;
+		left: 3vw;
+		cursor: pointer;
+		z-index: 999;
+	}
+
+	.slide-right-link {
+		position: sticky;
+		top: 300px;
+		left: 97vw;
+		cursor: pointer;
+		z-index: 999;
+	}
+}
+
+.outfit-slide {
+	height: 500px;
+	flex: 1 0 100vw;
+	text-align: center;
+	position: relative;
+
+	.outfit-info {
+		position: absolute;
+		bottom: 5%;
+		left: 5%;
+		width: 30%;
+		text-align: left;
+	}
+
+	.image-container {
+		height: 100%;
+		display: inline-block;
+		margin: 0 auto;
+		position: relative;
+
+		img {
+			max-width: 80vw;
+			height: 100%;
+		}
+	}
+}

@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"title": "Test Outfit",
+		"description": "What a great outfit!",
+		"tags": ["summer", "women", "sunglasses"],
+		"image": "https://orig00.deviantart.net/4adb/f/2014/005/5/2/elsa_hosk_png_by_laireadder-d70y0r5.png",
+		"featured": true,
+		"features": [{
+			"x": 10,
+			"y": 5,
+			"title": "Test Feature",
+			"tags": ["summer", "purse", "sunglasses"],
+			"description": "This is a test description."
+		}
+		]
+	},
+	{
+		"id": 2,
+		"title": "Test Outfit",
+		"description": "What a great outfit!",
+		"tags": ["summer", "women", "sunglasses"],
+		"image": "https://orig00.deviantart.net/4adb/f/2014/005/5/2/elsa_hosk_png_by_laireadder-d70y0r5.png",
+		"featured": true,
+		"features": [{
+			"x": 10,
+			"y": 10,
+			"title": "Test Feature",
+			"tags": ["summer", "purse", "sunglasses"],
+			"description": "This is a test description."
+		}
+		]
+	},
+	{
+		"id": 3,
+		"title": "Test Outfit",
+		"description": "What a great outfit!",
+		"tags": ["summer", "women", "sunglasses"],
+		"image": "https://orig00.deviantart.net/4adb/f/2014/005/5/2/elsa_hosk_png_by_laireadder-d70y0r5.png",
+		"featured": false,
+		"features": [{
+			"x": 10,
+			"y": 10,
+			"title": "Test Feature",
+			"tags": ["summer", "purse", "sunglasses"],
+			"description": "This is a test description."
+		}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Test Outfit",
+		"description": "What a great outfit!",
+		"tags": ["summer", "women", "sunglasses"],
+		"image": "https://orig00.deviantart.net/4adb/f/2014/005/5/2/elsa_hosk_png_by_laireadder-d70y0r5.png",
+		"featured": false,
+		"features": [{
+			"x": 10,
+			"y": 10,
+			"title": "Test Feature",
+			"tags": ["summer", "purse", "sunglasses"],
+			"description": "This is a test description."
+		}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Test Outfit",
+		"description": "What a great outfit!",
+		"tags": ["summer", "women", "sunglasses"],
+		"image": "https://orig00.deviantart.net/4adb/f/2014/005/5/2/elsa_hosk_png_by_laireadder-d70y0r5.png",
+		"featured": false,
+		"features": [{
+			"x": 10,
+			"y": 10,
+			"title": "Test Feature",
+			"tags": ["summer", "purse", "sunglasses"],
+			"description": "This is a test description."
+		}
+		]
+	}
+]

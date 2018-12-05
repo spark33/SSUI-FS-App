@@ -1,0 +1,51 @@
+.outfit-features {
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+
+	.outfit-feature {
+		position: absolute;
+
+		.tooltip {
+			display: none;
+
+			position: absolute;
+			top: 0;
+			left: 100%;
+	    text-align: left;
+	    background: white;
+	    padding: 10px 20px;
+	    margin-left: 10px;
+	    min-width: 200px;
+		}
+
+		&.open {
+			.tooltip {
+				display: block;
+			}
+		}
+	}
+}
+
+.new-feature-canvas, 
+.new-feature-form-container {
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.new-feature-module {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.new-feature-canvas {
+	background: rgba(0,0,0,.5);
+}

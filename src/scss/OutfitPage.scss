@@ -1,0 +1,23 @@
+@import 'variables.scss';
+
+.feature-list {
+	padding: 5% 10%;
+
+	.feature {
+		margin-bottom: 50px;
+	}
+}
+
+.feature-tag-list {
+	display: flex;
+
+	.tag {
+		padding: 5px 10px;
+		margin-right: 20px;
+		background: $blue;
+
+		&:before {
+			content: '#';
+		}
+	}
+}
