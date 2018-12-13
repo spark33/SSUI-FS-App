@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SSUI-FS-App/precache-manifest.5e76d644e3115e5bef5f4f4d865f8c56.js"
+  "/SSUI-FS-App/precache-manifest.5e43fa8d88442ff993c3f517189fbfc5.js"
 );
 
 workbox.clientsClaim();
