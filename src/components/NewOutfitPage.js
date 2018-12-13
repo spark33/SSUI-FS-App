@@ -16,6 +16,7 @@ class NewOutfitPage extends Component {
 			featured: false,
 			features: []
 		}
+		this.endpoint = process.env.CORS_API + "http://ssui-fs.herokuapp.com/outfits"
 		this.handleChange = this.handleChange.bind(this);
 		this.handleFeaturedChange = this.handleFeaturedChange.bind(this);
 	}
@@ -36,8 +37,7 @@ class NewOutfitPage extends Component {
 					<h1>Add New Outfit</h1>
 					<form 
 						method="POST" 
-						action="http://localhost:8080/outfits"
-						// action="http://ssui-fs.herokuapp.com/outfits"
+						action={ this.endpoint }
 					>
 						<img src={ this.state.image } />
 						<input onChange={ this.handleChange } name='image' value={ this.state.image } placeholder="Image URL"/>

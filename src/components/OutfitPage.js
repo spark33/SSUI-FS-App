@@ -13,12 +13,13 @@ class OutfitPage extends Component {
 		this.state = {
 			isLoaded: false
 		}
+		this.endpoint = process.env.CORS_API + "http://ssui-fs.herokuapp.com/outfits/"
 	}
 
 	componentDidMount() {
 		let id = this.props.match.params.id
 		let outfit = 
-			fetch("http://ssui-fs.herokuapp.com/outfits/" + id)
+			fetch(this.endpoint + id)
 	      .then(res => res.json())
 	      .then(
 	        (result) => {

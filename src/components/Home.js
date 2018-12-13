@@ -11,7 +11,7 @@ class Home extends Component {
 
   constructor() {
     super();
-    this.endpoint = "http://ssui-fs.herokuapp.com/outfits";
+    this.endpoint = process.env.CORS_API + "http://ssui-fs.herokuapp.com/outfits";
     this.state = {
       searchTags: [],
       featuredOutfits: [],

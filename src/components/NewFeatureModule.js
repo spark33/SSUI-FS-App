@@ -9,7 +9,7 @@ class NewFeatureModule extends Component {
 			infoMode: false,
 			feature: {}
 		}
-		this.endpoint = "http://ssui-fs.herokuapp.com/features";
+		this.endpoint = process.env.CORS_API + "http://ssui-fs.herokuapp.com/features";
 		this.handleFeatureChange = this.handleFeatureChange.bind(this);
 	}
 
