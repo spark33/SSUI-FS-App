@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/SSUI-FS-App/static/js/runtime~main.54698188.js"
   },
   {
-    "revision": "262f100d498ac02c98eb",
-    "url": "/SSUI-FS-App/static/js/main.262f100d.chunk.js"
+    "revision": "ffd430fdd12f84ec1f83",
+    "url": "/SSUI-FS-App/static/js/main.ffd430fd.chunk.js"
   },
   {
     "revision": "e82b4e4621b83e63aee7",
     "url": "/SSUI-FS-App/static/js/1.e82b4e46.chunk.js"
   },
   {
-    "revision": "262f100d498ac02c98eb",
+    "revision": "ffd430fdd12f84ec1f83",
     "url": "/SSUI-FS-App/static/css/main.f121d65c.chunk.css"
   },
   {
-    "revision": "29027bb1a662fa41cb2369d557cb3f20",
+    "revision": "041c7ba3052145e7a28092e34b3d80de",
     "url": "/SSUI-FS-App/index.html"
   }
 ];
