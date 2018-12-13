@@ -8,7 +8,7 @@ import NewOutfitPage from './NewOutfitPage.js';
 
 const App = () => (
 	<div>
-	  <Router>
+	  <Router basename={ process.env.PUBLIC_URL }>
 	    <main>
 	      <Route exact path="/" component={ Home } />
 	      <Route path="/about" component={ About } />
