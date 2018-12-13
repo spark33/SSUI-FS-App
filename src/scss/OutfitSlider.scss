@@ -15,6 +15,7 @@ header {
 		top: 300px;
 		left: 3vw;
 		cursor: pointer;
+		border: none;
 		z-index: 999;
 	}
 
@@ -23,6 +24,7 @@ header {
 		top: 300px;
 		left: 97vw;
 		cursor: pointer;
+		border: none;
 		z-index: 999;
 	}
 }
@@ -33,14 +35,26 @@ header {
 	text-align: center;
 	position: relative;
 
+	a {
+		color: grey;
+		border-bottom: 1px solid grey;
+		padding-bottom: 3px;
+		text-decoration: none;
+	}
+
+	.details-link {
+		display: inline-block;;
+	}
+
 	.outfit-info {
 		position: absolute;
 		bottom: 5%;
 		left: 5%;
 		width: 30%;
 		text-align: left;
+		z-index: 999;	
 	}
-
+	
 	.image-container {
 		height: 100%;
 		display: inline-block;

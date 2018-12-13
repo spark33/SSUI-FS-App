@@ -37,7 +37,8 @@ class OutfitSlider extends Component {
         	{
             this.props.outfits.map(function(outfit, index) {
               return <OutfitSlide 
-                        key = { index }
+                        key = { outfit._id }
+                        id = { outfit._id }
                         index = { index }
                         title = { outfit.title }
                         description = { outfit.description}

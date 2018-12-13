@@ -31,6 +31,7 @@ class SearchBar extends Component {
     				onChange={ this.handleChange }
     			/>
     		</form>
+    		<p><i>Search for tags to filter posts!</i></p>
 			</div>
     );
   }

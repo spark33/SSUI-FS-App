@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import '../scss/OutfitSlider.scss';
 
 import OutfitFeatures from './OutfitFeatures.js';
@@ -16,6 +18,9 @@ class OutfitSlide extends Component {
             tags={ this.props.tags }
           />
     			<p>{ this.props.description }</p>
+          <Link to={`/outfits/${this.props.id}`} className="details-link">
+            View
+          </Link>
     		</div>
 	      <div className="image-container">
 					<img src={ this.props.image } alt="Outfit" />

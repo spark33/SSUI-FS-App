@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .outfit-features {
 	position: absolute;
 	margin: 0;
@@ -9,6 +11,14 @@
 	.outfit-feature {
 		position: absolute;
 
+		width: 			 30px;
+		height: 		 30px;
+		line-height: 30px;
+		background: $blue;
+		color: white;
+		border-radius: 50%;
+		text-align: center;
+
 		.tooltip {
 			display: none;
 
@@ -17,7 +27,9 @@
 			left: 100%;
 	    text-align: left;
 	    background: white;
-	    padding: 10px 20px;
+	    color: black;
+	    line-height: auto;
+	    padding: 10px 30px 30px 20px;
 	    margin-left: 10px;
 	    min-width: 200px;
 		}
@@ -43,7 +55,13 @@
 .new-feature-module {
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 100%;
+
+	button {
+		margin: 0;
+		width: 150px;
+		padding: 3px 5px;
+	}
 }
 
 .new-feature-canvas {

@@ -52,7 +52,7 @@ class OutfitFeature extends Component {
         >
           <h4>{ this.props.feature.title }</h4>
           <p>{ this.props.feature.description }</p>
-          <a href={ this.props.feature.link }>View Details →</a>
+          <a href={ this.props.feature.link } target="_blank">View Details →</a>
         </div>
 			</div>
     );

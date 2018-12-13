@@ -11,11 +11,15 @@
 			font-size: 1.5em;
 			box-sizing: border-box;
 		}
+		p {
+			text-align: center;
+			color: grey;
+		}
 	}
 
 	.search-tags {
 		display: flex;
-		padding: 20px;
+		margin: 20px;
 		flex-wrap: wrap;
 		justify-content: center;
 
@@ -44,10 +48,10 @@
 	.search-result {
 		border: 1px solid grey;
 		margin: 50px 20px;
+		flex: 0 1 30%;
 
 		img {
-			max-width: 100%;
-			width: 400px;
+			width: 100%;
 		}
 	}
 }

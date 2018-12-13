@@ -6,7 +6,7 @@ class TopNav extends Component {
   render() {
     return (
       <nav>
-        <Link to={`/`}>
+        <Link to={`/`} className="logo">
         	fs
         </Link>
         <div>

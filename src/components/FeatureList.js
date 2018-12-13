@@ -27,6 +27,7 @@ class FeatureList extends Component {
                     tags={ feature.tags }
                   />
                   <p>{ feature.description }</p>
+                  <a href={ feature.link } target="_blank">View Details →</a>
                 </div>
               );
             })

@@ -6,6 +6,13 @@
 	.feature {
 		margin-bottom: 50px;
 	}
+
+	a {
+		color: grey;
+		border-bottom: 1px solid grey;
+		padding-bottom: 3px;
+		text-decoration: none;
+	}
 }
 
 .feature-tag-list {
@@ -15,6 +22,7 @@
 		padding: 5px 10px;
 		margin-right: 20px;
 		background: $blue;
+		color: white;
 
 		&:before {
 			content: '#';
